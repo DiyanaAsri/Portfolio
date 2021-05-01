@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>Contact</h1>
+		</div>
+
+		<main class="message">
+			<h3>Get in Touch</h3>
+			<div class="border"></div>
+			<FORM class="contact-form" action="https://formspree.io/f/xjvjgwgn" method="POST">
+			<form >
+              Full Name: <INPUT type=text name=name>
+              <BR>
+              <BR>
+			  Gender 
+              <INPUT type=radio name=gender value=man> MAN
+              <INPUT type=radio name=gender value=woman> WOMAN
+              <BR>
+              <BR>
+              Race : 
+              <SELECT name=race>
+	             <option value="malay">MALAY</option>
+	             <option value="chinese">CHINESE</option>
+                 <option value="indians">INDIANS</option>
+                 <option value="others">OTHERS</option>
+              </SELECT>
+              <BR>
+              <BR>
+               State : 
+              <SELECT name=state>
+	             <option value="kl">KUALA LUMPUR</option>
+	             <option value="slgr">SELANGOR</option>
+                 <option value="jhr">JOHOR</option>
+                 <option value="kdh">KEDAH</option>
+                 <option value="mlk">MELAKA</option>
+                 <option value="prk">PERAK</option>
+                 <option value="phg">PAHANG</option>
+                 <option value="cina">PERLIS</option>
+                 <option value="tgn">TERENGGANU</option>
+                 <option value="klt">KELANTAN</option>
+                 <option value="n9">NEGERI SEMBILAN</option>
+                 <option value="srw">SARAWAK</option>
+                 <option value="sbh">SABAH</option>
+              </SELECT>
+              <BR>
+              <BR>
+              Your Purpose : <br>
+              <INPUT type=checkbox name=hire value=purpose>Hire<br>
+              <INPUT type=checkbox name="web design" value=purpose>Web Design<br>
+              <INPUT type=checkbox name="small business" value=purpose>Small Business<br>
+              <INPUT type=checkbox name="design learning" value=purpose>Design Learning
+              <BR>
+              <BR>
+              Leave a Message: <INPUT type=text name=msg>
+              <br/>
+              <BR><BR>
+              <button type="submit">SUBMIT</button>
+              <button type="reset">CLEAR FORM</button>
+            </FORM>
+		</main>
+
+
+		<div class="centerButton">
+			<button onclick="goBack()">Go Back</button>
+			<script>
+				 function goBack() 
+                 {window.history.back();}
+			</script>
+		</div>
+
+		<footer>
+		<div class="footer-content">
+			<h3>DiyanaAsri</h3>
+			<ul class="socials">
+				<li><a href="https://www.instagram.com/diyanaaaaaaa_/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="http://bitly.ws/9jDj"><i class="fab fa-whatsapp"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2021 all right reserved by <span>diyanaasri</span></p>
+		</div>
+	</footer>
+
+	</body>
+</html>
